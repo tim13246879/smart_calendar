@@ -67,16 +67,6 @@ graph TD
 ---
 
 ## 3. **Design Details**
-### Key Features
-- Multi-format support: PDF, CSV, TXT, DOCX
-- Three-step validation: AI confidence check → user confirmation → dry-run option
-- Smart conflict detection for existing calendar events
-
-### Security Measures
-- File validation: Whitelisted MIME types (10+ supported)
-- Size limits: 10MB/file maximum
-- Data retention: Auto-purge uploads after 24h
-- GDPR compliance: Anonymize academic documents pre-processing
 
 ---
 
