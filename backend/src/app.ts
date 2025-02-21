@@ -1,5 +1,9 @@
+import dotenv from 'dotenv';
 import express, { Request, Response } from 'express';
 import v1Routes from './routes/v1/index.js';
+
+// Load .env file before any other imports
+dotenv.config();
 
 const app = express();
 const port = process.env.PORT || 3000;
